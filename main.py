@@ -6,7 +6,7 @@ def getHoursMinutesSeconds(totalSeconds):
         return "0s"
 
     if totalSeconds >= 3600:
-        # division to get the integer part that corrispond to the hours
+        # division to get the integer part that corresponds to the hours
         hours = totalSeconds // 3600
         totalSeconds = totalSeconds % 3600
 
